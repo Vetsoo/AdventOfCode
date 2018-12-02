@@ -46,6 +46,44 @@ namespace InventoryManagementSystem
             var checkSum = doubleLetters * tripleLetters;
             Console.WriteLine($"{doubleLetters} * {tripleLetters} = {checkSum}");
 
+            var uniqueWords = new List<string>();
+
+            foreach (var id in boxIds)
+            {
+                if (uniqueWords.Count == 0)
+                    uniqueWords.Add(id);
+                else
+                {
+                    var wordLength = id.Length;
+                    var numberOfDifferences = 0;
+                    var commonLetters = string.Empty;
+                    foreach (var uniqueWord in uniqueWords)
+                    {
+                        commonLetters = string.Empty;
+                        numberOfDifferences = 0;
+                        for (var i = 0; i < wordLength; i++)
+                        {
+                            if (id[i] != uniqueWord[i])
+                            {
+                                numberOfDifferences++;
+                                if (numberOfDifferences > 1)
+                                    break;
+                            } else
+                            {
+                                commonLetters += id[i];
+                            }
+                        }
+
+                        if (numberOfDifferences <= 1)
+                        {
+                            Console.WriteLine(id);
+                            Console.WriteLine(commonLetters);
+                        }
+                    }
+                    uniqueWords.Add(id);
+                }
+            }
+
             Console.ReadKey();
         }
     }
