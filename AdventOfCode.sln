@@ -7,6 +7,10 @@ Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Day1_ChronalCalibration", "
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "FrequencyCalculator", "FrequencyCalculator\FrequencyCalculator.csproj", "{5A0820F2-370A-46ED-BF00-F87583CC4555}"
 EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Day2_InventoryManagementSystem", "Day2_InventoryManagementSystem", "{6504CEF5-1B2B-49BF-B4E1-F20C0F30856D}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "InventoryManagementSystem", "InventoryManagementSystem\InventoryManagementSystem.csproj", "{0D2F3A54-654E-4969-96C2-8C671277BFAC}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -17,12 +21,17 @@ Global
 		{5A0820F2-370A-46ED-BF00-F87583CC4555}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{5A0820F2-370A-46ED-BF00-F87583CC4555}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{5A0820F2-370A-46ED-BF00-F87583CC4555}.Release|Any CPU.Build.0 = Release|Any CPU
+		{0D2F3A54-654E-4969-96C2-8C671277BFAC}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{0D2F3A54-654E-4969-96C2-8C671277BFAC}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{0D2F3A54-654E-4969-96C2-8C671277BFAC}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{0D2F3A54-654E-4969-96C2-8C671277BFAC}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
 	EndGlobalSection
 	GlobalSection(NestedProjects) = preSolution
 		{5A0820F2-370A-46ED-BF00-F87583CC4555} = {6916DEDE-A869-4E07-BF9E-6B663AAE5460}
+		{0D2F3A54-654E-4969-96C2-8C671277BFAC} = {6504CEF5-1B2B-49BF-B4E1-F20C0F30856D}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {36377FE7-FD85-4F91-A0E0-F02D8860DC57}
