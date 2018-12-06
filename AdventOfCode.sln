@@ -21,7 +21,11 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "ReposeRecord", "ReposeRecor
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Day5_AlchemicalReduction", "Day5_AlchemicalReduction", "{740C08B8-B338-4A76-ACC8-BC0A484D99B7}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "AlchemicalReduction", "AlchemicalReduction\AlchemicalReduction.csproj", "{9606B47A-F519-4506-B969-19617EEA03C4}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "AlchemicalReduction", "AlchemicalReduction\AlchemicalReduction.csproj", "{9606B47A-F519-4506-B969-19617EEA03C4}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Day6_ChronicalCoordinates", "Day6_ChronicalCoordinates", "{251F19EF-FFC0-4C7E-9280-45E55CE46A25}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ChronicalCoordinates", "ChronicalCoordinates\ChronicalCoordinates.csproj", "{71998198-00F4-49A8-9AFE-4C488F9474B7}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -49,6 +53,10 @@ Global
 		{9606B47A-F519-4506-B969-19617EEA03C4}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{9606B47A-F519-4506-B969-19617EEA03C4}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{9606B47A-F519-4506-B969-19617EEA03C4}.Release|Any CPU.Build.0 = Release|Any CPU
+		{71998198-00F4-49A8-9AFE-4C488F9474B7}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{71998198-00F4-49A8-9AFE-4C488F9474B7}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{71998198-00F4-49A8-9AFE-4C488F9474B7}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{71998198-00F4-49A8-9AFE-4C488F9474B7}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
@@ -59,6 +67,7 @@ Global
 		{EAD3A74F-CD4D-4FBF-B9F2-8F4608101C7D} = {819F86D2-301A-4775-9D0D-194ECBF2AED3}
 		{CADD79AE-133A-41DB-A048-9CBA41B0044A} = {299A5936-F40A-4641-8774-74843259FD6C}
 		{9606B47A-F519-4506-B969-19617EEA03C4} = {740C08B8-B338-4A76-ACC8-BC0A484D99B7}
+		{71998198-00F4-49A8-9AFE-4C488F9474B7} = {251F19EF-FFC0-4C7E-9280-45E55CE46A25}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {36377FE7-FD85-4F91-A0E0-F02D8860DC57}
