@@ -1,7 +1,7 @@
 ﻿
 Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio 15
-VisualStudioVersion = 15.0.28010.2046
+VisualStudioVersion = 15.0.26730.16
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Day1_ChronalCalibration", "Day1_ChronalCalibration", "{6916DEDE-A869-4E07-BF9E-6B663AAE5460}"
 EndProject
@@ -25,7 +25,11 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "AlchemicalReduction", "Alch
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Day6_ChronicalCoordinates", "Day6_ChronicalCoordinates", "{251F19EF-FFC0-4C7E-9280-45E55CE46A25}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ChronicalCoordinates", "ChronicalCoordinates\ChronicalCoordinates.csproj", "{71998198-00F4-49A8-9AFE-4C488F9474B7}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "ChronicalCoordinates", "ChronicalCoordinates\ChronicalCoordinates.csproj", "{71998198-00F4-49A8-9AFE-4C488F9474B7}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Day7_SumOfItParts", "Day7_SumOfItParts", "{4C8CC188-8F4B-48E3-9EF9-2C24FA35738D}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SumOfItParts", "SumOfItParts\SumOfItParts.csproj", "{95199DB3-6FAF-478B-8451-8FA931DA1B7A}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -57,6 +61,10 @@ Global
 		{71998198-00F4-49A8-9AFE-4C488F9474B7}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{71998198-00F4-49A8-9AFE-4C488F9474B7}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{71998198-00F4-49A8-9AFE-4C488F9474B7}.Release|Any CPU.Build.0 = Release|Any CPU
+		{95199DB3-6FAF-478B-8451-8FA931DA1B7A}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{95199DB3-6FAF-478B-8451-8FA931DA1B7A}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{95199DB3-6FAF-478B-8451-8FA931DA1B7A}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{95199DB3-6FAF-478B-8451-8FA931DA1B7A}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
@@ -68,6 +76,7 @@ Global
 		{CADD79AE-133A-41DB-A048-9CBA41B0044A} = {299A5936-F40A-4641-8774-74843259FD6C}
 		{9606B47A-F519-4506-B969-19617EEA03C4} = {740C08B8-B338-4A76-ACC8-BC0A484D99B7}
 		{71998198-00F4-49A8-9AFE-4C488F9474B7} = {251F19EF-FFC0-4C7E-9280-45E55CE46A25}
+		{95199DB3-6FAF-478B-8451-8FA931DA1B7A} = {4C8CC188-8F4B-48E3-9EF9-2C24FA35738D}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {36377FE7-FD85-4F91-A0E0-F02D8860DC57}
